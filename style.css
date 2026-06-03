@@ -170,6 +170,7 @@ footer a:hover { text-decoration: underline; }
 /* Print stylesheet — someone can ⌘P the catalog and get a printable register */
 @media print {
   body { background: white; color: black; padding: 1cm; max-width: none; }
+  .wheel { color: #000000; }
   .download { display: none; }
   .entry-detail { background: none; border: 1px solid #999; }
   .divider { border-top-color: black; }
