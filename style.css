@@ -117,6 +117,19 @@ header { text-align: center; margin-bottom: 2.5rem; }
   line-height: 1.7;
 }
 
+.dispatch {
+  text-align: center;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--white);
+}
+.dispatch a { color: var(--white); text-decoration: underline;}
+.dispatch a:hover { color: var(--white); text-decoration: dotted;}
+
 .download-row {
   display: flex;
   flex-wrap: wrap;
